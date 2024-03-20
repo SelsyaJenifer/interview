@@ -1,0 +1,7 @@
+P=int(input("enter a value of P :"))
+Q=int(input("enter a value of Q :"))
+temp = P
+P=Q
+Q = temp
+print("new value of P after swap:",P)
+print("new value of Q after swap:",Q)
