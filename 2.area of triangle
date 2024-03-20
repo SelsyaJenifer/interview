@@ -1,0 +1,5 @@
+def areaTriangle(b,h):
+    return 0.5*b*h
+base=3
+height=6
+print('Area={:.2f}'.format(areaTriangle(base,height)))
